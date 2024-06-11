@@ -1,0 +1,1258 @@
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: RadikalTrialBold, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+::selection {
+  background: #ff2882;
+  color: #fff;
+}
+a {
+  text-decoration: none !important;
+}
+.dropdown-menu {
+  min-width: 200px !important;
+  background-color: #963cff;
+}
+.dropdown-item {
+  display: inline !important;
+  width: auto !important;
+  height: auto !important;
+  color: #fff;
+  line-height: 4rem;
+  text-align: start !important;
+}
+.dropdown-center button {
+  font-size: 1.6rem !important;
+}
+
+.clubList li {
+  width: 40px;
+  height: 40px;
+}
+.clubList li img {
+  width: 32px;
+  height: 32px;
+}
+.clubSitesHeading img {
+  width: 13.6px;
+  height: 13.6px;
+}
+.clubSitesHeading {
+  font-size: small;
+}
+.logoContainer {
+  width: 11.4rem;
+  top: 32px;
+}
+.logoContainer img {
+  width: 8.8rem;
+  height: 11.2rem;
+}
+.fixedContainer {
+}
+.mainNavSec {
+  min-height: 6rem;
+  background-color: #37003c;
+}
+.mainNav {
+  /* padding-left: 14rem !important; */
+  line-height: 6rem;
+}
+.mainNav ul {
+  font-family: RadikalTrialBlack;
+}
+.mainNav ul li ul {
+  max-width: 200px !important;
+}
+.NoRoomForRacism {
+  border-left: 1px solid #501f54;
+}
+.NoRoomForRacism span {
+}
+.SignIn {
+  /* height: auto !important; */
+  align-self: center;
+}
+.SearchIcon {
+  border-left: 1px solid #501f54 !important;
+}
+.SearchForm {
+  border: 1px solid #37003c;
+}
+.input-group button img {
+  background-color: transparent !important;
+  color: #37003c !important;
+}
+.btn-close {
+  position: relative;
+  top: -5rem;
+  right: 0;
+  font-size: 3rem !important;
+  color: #37003c !important;
+}
+.topic {
+  border: 1px transparent !important;
+  border-radius: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+.topic:hover {
+  background: linear-gradient((175deg, #12e0ff 11.64%, #7665ff 87.07%));
+}
+.searchBar-suggested-section {
+  border-bottom: 1px solid;
+}
+.ViralVid a span {
+  color: #37003c !important;
+}
+.ViralVid a img {
+  width: 2rem !important;
+  height: 1rem !important;
+}
+.subNav {
+  min-height: 5.5rem !important ;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px 0px;
+}
+.subNav ul {
+  padding-left: 14.5rem !important;
+  height: 5.5rem;
+  font-size: 2rem;
+}
+.subNav ul li {
+  width: auto;
+  font-size: 1.2rem;
+}
+.subNav ul li a {
+  color: #ababa6;
+  line-height: 4rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+/* .nav{
+  --bs-nav-link-hover-color{
+	background: linear-gradient((175deg, #12e0ff 11.64%, #7665ff 87.07%));
+	
+  }
+} */
+/* @media (max-width: 992px) {
+  .mainNav {
+	padding-left: 0 !important;
+  }
+} */
+.wrapper {
+  /* margin: 0 0 0 50px !important; */
+  max-width: 1376px !important;
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important;
+  top: 185px;
+}
+.sidbarPush {
+  padding-left: 3.2rem !important;
+  width: calc(100% - 32.8rem) !important;
+}
+.fixedSidebar {
+  width: 32rem;
+  margin-top: 3.2rem !important;
+  z-index: 1 !important;
+  order: 0 !important;
+}
+.hero-playlist__container {
+  padding: 4.8rem 0 1rem !important;
+}
+.hero-playlist__extra-content {
+  padding: 0 1.2rem 1.2rem 1.2rem 1.2rem !important;
+  gap: 0.8rem !important;
+}
+.media-thumbnail {
+  margin: 0 0.4rem 1.6rem !important;
+  background-color: #37003c !important;
+}
+.hero-playlist__list {
+  min-width: 35% !important;
+}
+.media-thumbnail__header {
+  border-radius: 0.8rem !important;
+}
+.media-thumbnail__content {
+  padding: 0.4rem 0.8rem !important;
+}
+.media-thumbnail__image-container {
+  z-index: 11 !important;
+  position: relative !important;
+  height: 100% !important;
+}
+.media-thumbnail__tag {
+  font-size: 1.6rem !important;
+  line-height: 1.8rem !important;
+  padding: 0.3rem 0.8rem 0.3rem 0 !important;
+}
+.media-thumbnail__title {
+  font-family: "RadikalTrialBlack";
+  margin: 0.4rem 0 !important;
+  font-weight: 400 !important;
+  line-height: 3.6rem !important;
+  font-size: 3rem !important;
+  /* overflow: hidden; */
+  max-height: 32.4rem !important;
+}
+.media-thumbnail__description {
+  font-family: "RadikalTrialRegular";
+  color: #fff !important;
+  letter-spacing: -0.4px !important;
+  line-height: 2.4rem !important;
+  font-size: 1.6rem !important;
+  overflow: hidden !important;
+  max-height: 11.52rem !important;
+}
+.hero-playlist__container .media-thumbnail__title {
+  font-family: "RadikalTrialRegular";
+  margin: 0.4rem 0 !important;
+  font-weight: 400 !important;
+  line-height: 2.4rem !important;
+  font-size: 1.6rem !important;
+  /* overflow: hidden; */
+  max-height: 32.4rem !important;
+}
+.hero-playlist__container .media-thumbnail__tag {
+  border-radius: 0 0.4rem 0.4rem 0 !important;
+  padding-right: 0.8rem !important;
+  letter-spacing: -0.4px !important;
+  margin-top: 0.4rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  font-family: "RadikalTrialBlack";
+  font-weight: 400;
+}
+.hero-playlist__extra-content:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #734c76 !important;
+  top: -1.2rem;
+  left: 0;
+}
+.hero-playlist__extra-content {
+  background-color: #37003c;
+  gap: 0.8rem !important;
+  padding: 0 1.2rem 1.2rem 1.2rem !important;
+}
+.hero-playlist__extra-item {
+  width: calc(33% - 0.4rem) !important;
+}
+.hero-playlist__extra-item div {
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  margin-left: -0.6rem !important;
+  margin-right: 0.4rem !important;
+}
+.hero-playlist__extra-item div h6 {
+  font-size: 1.2rem !important;
+  color: #fff !important;
+}
+.backcolfixed {
+  z-index: -1 !important;
+  max-width: 100% !important;
+  height: 658px !important;
+  background-color: #37003c !important;
+}
+.fixtures-abridged-header {
+  border: 1px solid #ebe5eb !important;
+  border-radius: 0.8rem 0.8rem 0 0 !important;
+  padding-bottom: 0.8rem !important;
+}
+.fixtures-abridged-header__header {
+  background-image: url(../images/sm-header-pattern.svg) !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 5.2rem !important;
+  width: 100% !important;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+.fixtures-abridged-header__header img {
+  left: 1rem !important;
+  top: 0.6rem !important;
+  height: 4rem !important;
+}
+.fixtures-abridged-header__header div {
+  font-family: RadikalTrialBlack !important;
+  line-height: 3.8rem !important;
+  font-size: 2.5rem !important;
+  color: #fff !important;
+}
+.fixtures-abridged-header__local-time {
+  font-family: RadikalTrialLight;
+  margin-top: 1.2rem !important;
+  line-height: 1.8rem !important;
+  /* letter-spacing: -0.4rem !important; */
+  color: #734c76;
+}
+.fixtures-abridged-header__local-time span {
+  font-weight: bolder !important;
+  font-family: RadikalTrialBold !important;
+}
+.fixtures-abridged {
+  margin-bottom: 4rem !important;
+  border-radius: 0 0 0.8rem 0.8rem !important;
+  border: 1px solid #ebe5eb !important;
+  border-top: none !important;
+  padding-bottom: 0.8rem !important;
+}
+.fixtures-abridged__day-container:last-child {
+  margin-bottom: 2.4rem !important;
+}
+.fixtures-abridged__date {
+  font-size: 2rem !important;
+  line-height: 3rem !important;
+  color: #37003c;
+  margin-bottom: 0.8rem !important;
+  font-family: RadikalTrialLight !important;
+}
+.match-fixture {
+  padding: 1.3rem 0.8rem !important;
+  color: #37003c;
+  border: 1px solid #ebe5eb !important;
+}
+.match-fixture__team {
+  width: 50% !important;
+}
+.match-fixture .match-fixture__team:first-of-type {
+  padding-right: 6.6rem !important;
+}
+.match-fixture__team:first-of-type {
+  text-align: right !important;
+  padding-left: 0 !important;
+}
+.match-fixture__team {
+  width: 50% !important;
+}
+.match-fixture__team-name {
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  font-weight: bolder !important;
+  margin-right: 0.8rem !important;
+  margin-left: 0.8rem !important;
+}
+.match-fixture__team .badge {
+}
+.match-fixture__team .badge img {
+  width: 30px !important;
+  height: 30px !important;
+}
+.match-fixture time {
+  height: 2.5rem !important;
+  width: 4.3rem !important;
+  font-size: 1.4rem !important;
+  line-height: 2.1rem !important;
+  top: 1.6rem !important;
+  border: 0.1rem solid #ebe5eb;
+  right: 0 !important;
+  left: 0 !important;
+  margin: 0 auto !important;
+}
+.match-fixture__team--away {
+  text-align: left;
+  padding-left: 6.6rem !important;
+}
+.match-fixture svg {
+  right: 0.5rem !important;
+  top: 2.2rem !important;
+  width: 1rem !important;
+  height: 1rem !important;
+  fill: inherit !important;
+}
+.match-fixture:last-child {
+  margin-bottom: 6rem !important;
+  border-bottom: 1px solid #ebe5eb !important;
+}
+.match-fixture:focus,
+.match-fixture:hover {
+  background: linear-gradient(
+    98.5deg,
+    #05f0ff -46.16%,
+    #7367ff 42.64%,
+    #963cff 70.3%
+  ) !important;
+  color: #fff !important;
+}
+.generateFixturesCalendar {
+  margin: 0.8rem 0.8rem 0 !important;
+  width: calc(100% - 1.6rem) !important;
+  font-size: 1.4rem !important;
+  line-height: 1.4rem !important;
+  color: #37003c !important;
+  border: 0.1rem solid #ebe5eb !important;
+  border-radius: 0.4rem !important;
+  padding: 1.2rem 5.6rem !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+.generateFixturesCalendar:hover {
+  background-color: #ebe5eb !important;
+}
+.icon-button__icon {
+  fill: #37003c !important;
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+  margin: 0 0.8rem !important;
+}
+.icon-button__text {
+  font-size: 1.4rem !important;
+  font-family: RadikalTrialLight !important;
+}
+.home-sponsors {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12) !important;
+  border-radius: 0.8rem !important;
+  padding: 0.8rem 0 !important;
+  margin: 1.6rem 0 !important;
+}
+.home-sponsors:before {
+  content: "" !important;
+  display: block !important;
+  width: 2.9rem !important;
+  height: 8.4rem !important;
+  background: url(../images/home-sponsors-bg.svg) !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: absolute !important;
+  z-index: 10 !important;
+  top: 2px !important;
+  left: 2px !important;
+}
+.home-sponsors:after {
+  content: "" !important;
+  display: table !important;
+  clear: both !important;
+}
+.home-sponsors__sponsors-container {
+  margin: auto 0 auto auto !important;
+}
+.home-sponsors__sponsors-list {
+  font-size: 0 !important;
+  left: 0 !important;
+  height: 7.4rem !important;
+  padding-top: 0.8rem !important;
+}
+.home-sponsors__sponsor {
+  min-width: 15rem !important;
+  color: #76766f !important;
+  font-size: 1.1rem !important;
+  height: 100% !important;
+}
+.editorial-list {
+  padding-bottom: 0.8rem !important;
+  border-bottom: 0.1rem solid #ebe5eb !important;
+  margin: 3.2rem auto !important;
+}
+.widget-header {
+  margin-bottom: 1.6rem !important;
+}
+.widget-header h2 {
+  color: #37003c !important;
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  padding-right: 0.8rem !important;
+}
+.widget-header a {
+  font-family: RadikalTrialLight !important;
+  gap: 0.8rem !important;
+  color: #37003c !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  padding: 0.2rem 1.6rem !important;
+}
+.widget-header a span {
+  font-size: 1.6rem !important;
+  color: #37003c !important;
+
+  line-height: 2.4rem !important;
+}
+.widget-header a svg {
+  width: 1.4rem !important;
+  height: 1.4rem !important;
+}
+/* .editorial-list__item {
+  width: 33.33333%;
+} */
+.editorial-list__item .media-thumbnail {
+  transition: transform 0.25s ease !important;
+  margin: 0 0.2rem 1.6rem !important;
+  width: calc(100% - 0.4rem) !important;
+  background-color: #fff !important;
+  border-radius: 0.8rem !important;
+}
+.editorial-list__item .media-thumbnail a header {
+  border-radius: 0.8rem !important;
+  overflow: hidden !important;
+  position: relative !important;
+  z-index: 0 !important;
+}
+.editorial-list__item .media-thumbnail .media-thumbnail__tag {
+  border-radius: 0 0.4rem 0.4rem 0 !important;
+  color: #87668a !important;
+  padding-right: 0.8rem !important;
+  letter-spacing: -0.4px !important;
+  margin-top: 0.4rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.editorial-list__item .media-thumbnail .media-thumbnail__title {
+  color: #37003c !important;
+  letter-spacing: -0.4px !important;
+  margin: 0.4rem 0 !important;
+  line-height: 2.2rem !important;
+  font-size: 1.8rem !important;
+  overflow: hidden !important;
+  max-height: 11.88rem !important;
+}
+.media-thumbnail__related-articles {
+  flex-grow: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.8rem !important;
+  padding: 0.8rem 0.6rem !important;
+  border-top: 0.1rem solid #ebe5eb !important;
+}
+.related-article:not(.related-article--club):before {
+  content: "" !important;
+  display: block !important;
+  width: 2.6rem !important;
+  height: 2rem !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+}
+.related-article--text:before {
+  background-image: url(../images/icn-news-p.svg);
+}
+.related-article__text {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.4px;
+  color: #37003c;
+  transition: underline 0.2s;
+}
+.league-table-sm {
+  border: 1px solid #ebe5eb !important;
+  border-radius: 0.8rem !important;
+  margin: 1.6rem 0 !important;
+  background: #fff !important;
+}
+.league-table-sm__header-wrapper {
+  width: 100% !important;
+  height: 5.2rem !important;
+  position: relative !important;
+  padding: 0 1rem !important;
+  background-image: url(../images/sm-header-pattern.svg) !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 0.8rem 0.8rem 0 0 !important;
+}
+table {
+  border-collapse: separate !important;
+  text-indent: initial !important;
+  border-spacing: 2px !important;
+}
+.league-table-sm__title {
+  font-size: 2.5rem;
+  line-height: 3.8rem;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.league-table-sm table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin-top: 1.2rem !important;
+}
+.league-table-sm__thead tr {
+  height: 3.1rem !important;
+  background-color: #fbfafa !important;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.league-table-sm__thead th {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+  font-family: RadikalTrialBold, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  color: #87668a !important;
+  display: table-cell !important;
+  vertical-align: inherit !important;
+  font-weight: bold !important;
+  text-align: -internal-center !important;
+}
+.team-league-table {
+  text-align: start !important;
+  padding-left: 2.2rem !important;
+}
+.league-table-sm__thead th abbr {
+  left: 1.6rem !important;
+}
+thead {
+  display: table-header-group !important;
+  vertical-align: middle !important;
+  border-color: inherit !important;
+}
+tbody {
+}
+.tableDark {
+  box-sizing: border-box !important;
+  border-bottom: 0.1rem solid #ebe5eb !important;
+}
+tbody .pos {
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  gap: 0.8rem !important;
+  padding-right: 0.8rem !important;
+}
+tbody > tr > td {
+  height: 4rem !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  text-align: center !important;
+  padding: 0.85rem 0.4rem !important;
+}
+.league-table-sm__tbody .pos {
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.8rem !important;
+  padding-right: 0.8rem !important;
+}
+.value {
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  font-family: RadikalTrialLight !important;
+  color: #87668a;
+}
+.dot {
+  width: 0.4rem !important;
+  height: 0.4rem !important;
+  border-radius: 100% !important;
+  background-color: #87668a;
+}
+.team {
+  height: 4rem !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  text-align: center !important;
+  padding: 0.85rem 0.4rem !important;
+}
+.team a {
+  gap: 0.8rem !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  font-family: RadikalTrialBold, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  color: inherit !important;
+}
+.team a span {
+  height: 100% !important;
+  gap: 0.8rem !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  font-family: RadikalTrialBold, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  color: inherit !important;
+}
+.team a span img {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}
+.points {
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  padding-right: 0.7rem !important;
+}
+.global-btn {
+  margin: 1.2rem 0.5rem 0.5rem !important;
+  gap: 0.8rem !important;
+  padding: 1.2rem 1.6rem !important;
+  min-width: 19rem !important;
+  text-decoration: none !important;
+  background-color: #fff !important;
+  color: #37003c !important;
+  border: 0.1rem solid #ebe5eb !important;
+  border-radius: 0.4rem !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+.global-btn:hover {
+  cursor: pointer;
+  background-color: #f5f2f5 !important;
+}
+.global-btn__icn-right:before {
+  width: 1.7rem !important;
+  height: 1rem !important;
+  background-image: url(../images/icn-right.svg) !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+}
+.stats-card {
+  color: #37003c !important;
+  letter-spacing: -0.04rem !important;
+}
+.stats-card__title {
+  margin: 1.6rem 0 !important;
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.stats-card__wrapper {
+  border: 0.1rem solid #ebe5eb !important;
+  border-radius: 1.2rem !important;
+}
+.stats-card__top-section {
+  height: 33.5rem !important;
+}
+.stats-card__background-wrapper {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.stats-card__background {
+  flex: 1 1 50% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+.stats-card__svg-decoration {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  inset: 0 !important;
+  opacity: 0.07 !important;
+}
+.stats-card__stats-list-wrapper {
+  width: 10rem !important;
+  padding: 1.6rem 0.5rem 2.5rem 1.2rem !important;
+  z-index: 10 !important;
+}
+.stats-card__badge {
+  width: 7.4rem !important;
+  height: 7.4rem !important;
+}
+.stats-card__row:not(:last-child) {
+  margin-bottom: 1.2rem !important;
+}
+.stats-card__pos {
+  font-size: 1.2rem !important;
+  line-height: 1.2rem !important;
+  margin-bottom: 0.2rem !important;
+  word-break: break-word !important;
+}
+.stats-card__row {
+  color: #37003c !important;
+  text-decoration: none !important;
+}
+.stats-card__stat {
+  font-size: 2.5rem !important;
+  line-height: 2.5rem !important;
+  margin-bottom: 0.2rem !important;
+  font-weight: 800 !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.stats-card__player-image {
+  width: calc(100% - 10rem) !important;
+  background: linear-gradient(284.38deg, #be000a, #ff0203) !important;
+}
+.stats-card__player-info {
+  padding: 1rem 1rem 0 !important;
+}
+.stats-card__player-first {
+  color: #37003c;
+  font-size: 1.6rem !important;
+  line-height: 1 !important;
+}
+.stats-card__player-last {
+  color: #37003c;
+  font-size: 3.9rem !important;
+  line-height: 1 !important;
+}
+.stats-card__player-position {
+  font-family: RadikalTrialLight;
+  color: #37003c;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.stats-card__player-bottom-bar {
+  padding: 1.5rem 1rem 1rem !important;
+}
+.stats-card__flag {
+  width: 2.9rem !important;
+}
+.stats-card__flag-icon {
+  width: 100% !important;
+}
+.stats-card__player-country {
+  font-family: RadikalTrialLight;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  margin-left: 0.4rem !important;
+  color: #37003c;
+}
+.stats-card__player-link span {
+  color: #37003c !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.stats-card__button-icon {
+  margin-left: 0.4rem !important;
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  background-image: url(../images/icn-right.svg);
+}
+.stats-card__player-image:last-of-type {
+  width: calc(100% - 10rem) !important;
+  background-color: #fff !important;
+}
+.stats-card__badge .badge-image {
+  width: 100%;
+  height: 100%;
+}
+.content-collection {
+  margin: 3.2rem auto !important;
+  padding-bottom: 0.8rem !important;
+  border-bottom: 0.1rem solid #ebe5eb !important;
+}
+.widget-header-content-collection {
+  margin-bottom: 1.6rem !important;
+}
+.widget-header-content-collection h2 {
+  color: #37003c !important;
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  padding-right: 0.8rem !important;
+}
+.widget-header-content-collection a {
+  gap: 0.8rem !important;
+  color: #37003c !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  padding: 0.2rem 1.6rem !important;
+  text-decoration: none !important;
+}
+.widget-header-content-collection a span {
+  font-family: RadikalTrialLight;
+  gap: 0.8rem !important;
+  color: #37003c !important;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  padding: 0.2rem 1.6rem !important;
+  text-decoration: none !important;
+}
+.content-collection-thumbnail {
+  background-color: #fff !important;
+  transition: transform 0.25s ease !important;
+  position: relative !important;
+  margin: 0 0.2rem 1.6rem !important;
+  width: calc(100% - 0.4rem) !important;
+}
+.content-collection-link {
+  height: 100% !important;
+  text-decoration: none !important;
+}
+.content-collection-link__header {
+  border-radius: 0.8rem !important;
+}
+.content-collection-link__image-container {
+  height: 100% !important;
+}
+.content-collection-meta-tag {
+  display: flex !important;
+  align-items: center !important;
+  background-color: #37003c !important;
+  border-radius: 0 0.8rem !important;
+  font-size: 1.6rem !important;
+  letter-spacing: -0.4px !important;
+  line-height: 2.4rem !important;
+  color: #fff !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  padding: 0 0.8rem !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+/* .content-collection-link__image-container::after{
+  content: "";
+	padding-top: 56.25%;
+	display: block;
+} */
+.content-collection-content {
+  flex-grow: 1 !important;
+  padding: 0.4rem 0.8rem !important;
+}
+.content-collection-tag {
+  border-radius: 0 0.4rem 0.4rem 0 !important;
+  color: #87668a !important;
+  padding: 0.3rem 0.8rem 0.3rem 0 !important;
+  letter-spacing: -0.4px !important;
+  margin-top: 0.4rem !important;
+  font-size: 1.6rem !important;
+  line-height: 1.8rem !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.content-collection-title {
+  color: #37003c !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 3.6rem !important;
+  font-size: 3rem !important;
+  overflow: hidden !important;
+  max-height: 32.4rem !important;
+}
+.content-collection__description {
+  color: #37003c !important;
+  letter-spacing: -0.4px !important;
+  line-height: 2.4rem !important;
+  font-size: 1.6rem !important;
+  overflow: hidden !important;
+  max-height: 11.52rem !important;
+  font-family: RadikalTrialLight;
+}
+.content-collection__list {
+  flex-shrink: 0 !important;
+  margin-left: 0.4rem !important;
+  width: 42.5% !important;
+}
+.content-collection-link__header-list {
+  flex-shrink: 0 !important;
+  width: 45% !important;
+}
+.content-collection-content-list-tag {
+  border-radius: 0 0.4rem 0.4rem 0 !important;
+  color: #87668a !important;
+  padding-right: 0.8rem !important;
+  letter-spacing: -0.4px !important;
+  margin-top: 0.4rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+.content-collection-content-list-title {
+  font-family: RadikalTrialLight;
+  line-height: 2rem !important;
+  font-size: 1.6rem !important;
+  overflow: hidden !important;
+  max-height: 9.6rem !important;
+  color: #37003c !important;
+  letter-spacing: -0.4px !important;
+  margin: 0.4rem 0 !important;
+  line-height: 2.2rem !important;
+}
+.content-collection-related-articles {
+  gap: 0.8rem !important;
+  padding: 0.8rem 0.6rem !important;
+  border-top: 0.1rem solid #ebe5eb !important;
+}
+.content-collection-related-articles a {
+  gap: 0.8rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  letter-spacing: -0.4px !important;
+  color: #37003c !important;
+  transition: underline 0.2s !important;
+}
+.content-collection-related-articles a::before {
+  content: "";
+  display: block;
+  width: 2.6rem;
+  height: 2rem;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url(../images/icn-play-p.svg);
+}
+.content-collection-related-articles a div {
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  letter-spacing: -0.4px !important;
+  color: #37003c !important;
+  transition: underline 0.2s !important;
+}
+.content-collection-items {
+  width: 33.33333% !important;
+}
+.news-content-tag {
+  font-family: RadikalTrialLight;
+  color: #37003c !important;
+  letter-spacing: -0.4px !important;
+  margin: 0.4rem 0 !important;
+  line-height: 2.2rem !important;
+  font-size: 1.8rem;
+  overflow: hidden !important;
+  max-height: 11.88rem !important;
+}
+.nike-ball-hub {
+  color: #fff !important;
+  margin-bottom: 3.2rem !important;
+}
+.nike-ball-hub::before {
+  content: "";
+  transform: skew(30deg);
+  position: absolute;
+  top: 0;
+  right: -10rem;
+  left: 15rem;
+  bottom: 0;
+  background: linear-gradient(180deg, #e33d40, #e75f2a);
+}
+.nike-wrapper {
+  max-width: 1376px;
+  margin: 0 auto !important;
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important;
+}
+.nike-wrapper::before {
+  content: "";
+  display: block;
+}
+.nike-image-container {
+  vertical-align: middle;
+  margin-left: 0.6rem;
+  width: 30%;
+  max-width: 18rem;
+}
+.nike-info {
+  width: 70% !important;
+  vertical-align: middle !important;
+  margin-right: -4px !important;
+  padding: 2.6rem 2rem 4rem 4.2rem !important;
+}
+.nike-title {
+  font-family: RadikalTrialBold, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  margin-bottom: 1.2rem !important;
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
+}
+.nike-description {
+  font-family: RadikalTrialLight !important;
+  line-height: 2.1rem !important;
+  margin-bottom: 1.2rem !important;
+  font-size: 1.4rem !important;
+  color: #fff !important;
+}
+.nike-btn {
+  font-family: RadikalTrialLight;
+  font-size: 1.4rem !important;
+  min-width: 19rem !important;
+  background-color: #fff !important;
+  color: #37003c !important;
+  border: 0.1rem solid #ebe5eb !important;
+  border-radius: 0.4rem !important;
+  padding: 1.2rem 5.6rem !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+.nike-btn svg {
+  margin-left: 0.8rem !important;
+}
+.nike-btn:hover {
+  background-color: #f5f2f5 !important;
+}
+@media (max-width: 992px) {
+  .sidbarPush {
+    width: 100% !important;
+  }
+  .backcolfixed {
+    display: none !important;
+  }
+  .wrapper {
+    top: 100 !important;
+  }
+  .MainFooter {
+    top: 3000px !important;
+  }
+}
+@media (max-width: 576px) {
+  .MainFooter {
+    top: 4500px !important;
+  }
+}
+.MainFooter {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-top: 2.4rem !important;
+  background: #fff !important;
+  top: 3900px;
+  width: 100%;
+}
+.footer-sponsors {
+  width: 100% !important;
+  background: #fff !important;
+  border-top: 0 !important;
+  padding: 0 4.9rem !important;
+}
+.footer-sponsors__list::before {
+  content: "" !important;
+  background: linear-gradient(
+    93.93deg,
+    #05f0ff 1.12%,
+    #7367ff 63.34%,
+    #963cff 82.72%
+  ) !important;
+  display: block !important;
+  height: 0.4rem !important;
+  left: 0 !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  width: auto !important;
+}
+.footer-sponsors__sponsor {
+  flex: 1 0 17rem !important;
+  padding: 0.7rem 0 2.2rem !important;
+  border-bottom: 0.1rem solid #ebe5eb !important;
+  position: relative !important;
+}
+.footer-sponsors__link {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  color: #000 !important;
+  text-decoration: none !important;
+  gap: 0.4rem !important;
+}
+.footer-sponsors__image {
+  max-width: 10rem !important;
+  height: 6.4rem !important;
+  -o-object-fit: contain !important;
+  object-fit: contain !important;
+}
+.footer-sponsors__sponsor-text {
+  /* letter-spacing: -0.4rem !important; */
+  font-family: RadikalTrialLight !important;
+}
+.footer-sponsors__list::after {
+  content: "" !important;
+  display: block !important;
+  width: 100% !important;
+  height: 1rem !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  margin-top: -1rem !important;
+  background: #fff !important;
+}
+.footerContent {
+  padding: 4.8rem 8rem 6.4rem !important;
+  background-color: #37003c !important;
+}
+.mainFooter .footerContent .wrapper {
+  display: flex !important;
+  padding: 0 !important;
+  gap: 2rem !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  max-width: none !important;
+}
+.subHeader {
+  color: #fff;
+  font-family: RadikalTrialBlack, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
+  margin-bottom: 2rem !important;
+}
+.list--premier-league {
+  column-count: 2 !important;
+}
+.footer-link-wrapper {
+  gap: 0.4rem !important;
+}
+.footer-link {
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  padding: 0.8rem 0 !important;
+  padding-right: 0.2rem !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-family: RadikalTrialLight !important;
+}
+.list--fantasy {
+  height: auto !important;
+  list-style: none;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+  padding: 0.8rem 0 !important;
+  padding-right: 0.2rem !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-family: RadikalTrialLight !important;
+}
+.footerCorporate {
+  font-size: 1.1rem !important;
+  background-color: #37003c !important;
+  border-top: 0.2rem solid #734c76 !important;
+}
+.footerCorporate .wrapper {
+  height: 8rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: none !important;
+  padding: 0 8rem !important;
+}
+/* .mainFooter .footerCorporate .wrapper ul li {
+  display: inline-block !important;
+  position: relative !important;
+  margin: 0 .8rem !important;
+  vertical-align: middle !important;
+}
+.mainFooter .footerCorporate ul{
+  position: relative !important;
+  margin: 0 .8rem !important;
+  vertical-align: middle !important;
+} */
+.footerCorporate-items {
+  display: inline-block !important;
+  position: relative !important;
+  margin: 0 0.8rem !important;
+  vertical-align: middle !important;
+  color: #fff !important;
+}
+.footerCorporate-items a {
+  font-family: RadikalTrialLight !important;
+}
+a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: white;
+}
+.js-lazy-load {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+.js-lazy-load:hover {
+  transform: scale(1.2) !important;
+}

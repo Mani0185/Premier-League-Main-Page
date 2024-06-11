@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "RadikalTrialBlack";
+  src: url(../Fonts/RadikalTrial-Black-BF642254c139184.otf);
+}
+@font-face {
+  font-family: "RadikalTrialBold";
+  src: url(../Fonts/RadikalTrial-Bold-BF642254c05f85f.otf);
+}
+@font-face {
+  font-family: "RadikalTrialMedium";
+  src: url(../Fonts/RadikalTrial-Medium-BF642254c12fd7b.otf);
+}
+@font-face {
+  font-family: "RadikalTrialRegular";
+  src: url(../Fonts/RadikalTrial-Regular-BF642254c157251.otf);
+}
+@font-face {
+  font-family: "RadikalTrialLight";
+  src: url(../Fonts/RadikalTrial-Light-BF642254c0602f1.otf);
+}
